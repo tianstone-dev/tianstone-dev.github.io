@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'tianstone-dev',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Hello from tianstone-dev!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -22,7 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'tianstone-dev', // Usually your GitHub org/user name.
   projectName: 'tianstone-dev.github.io', // Usually your repo name.
-
+  deploymentBranch: 'main',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -86,6 +86,13 @@ const config = {
             position: 'left',
             label: 'Projects',
           },
+          {
+    
+            href: 'https://github.com/tianstone-dev/tianstone-dev.github.io', //GitHub 入口，如不需要可以删除
+            label: 'GitHub',
+            position: 'right',
+    
+        },
         ],
       },
       footer: {
