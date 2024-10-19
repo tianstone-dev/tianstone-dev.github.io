@@ -114,7 +114,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Stone-dev. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} tianstone-dev. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
