@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'tianstone-dev',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -74,7 +74,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Stone-dev',
+        title: 'tianstone-dev',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -84,7 +84,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Projects',
           },
         ],
       },
@@ -95,7 +95,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Projects',
                 to: '/docs/intro',
               },
             ],
@@ -106,6 +106,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/tianstone-dev/tianstone-dev.github.io',
+              },
+              {
+                label: 'Site',
+                href: 'https://tianstone-dev.github.io',
               },
             ],
           },
