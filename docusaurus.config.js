@@ -96,31 +96,6 @@ const config = {
         ],
       },
       footer: {
-        // style: 'dark',
-        links: [
-          {
-            title: 'Dev',
-            items: [
-              {
-                label: 'Projects',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/tianstone-dev/tianstone-dev.github.io',
-              },
-              {
-                label: 'Site',
-                href: 'https://tianstone-dev.github.io',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} tianstone-dev. Built with Docusaurus.`,
       },
       prism: {
