@@ -92,7 +92,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
     
-        },
+          },
         ],
       },
       footer: {
