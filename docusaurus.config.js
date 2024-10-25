@@ -96,10 +96,10 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        // style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Dev',
             items: [
               {
                 label: 'Projects',
